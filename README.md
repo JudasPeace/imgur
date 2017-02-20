@@ -1,2 +1,2 @@
 # imgur
-Stuff for the more effective of wasting of time on Imgur
+Stuff for the very much more effective wasting of time on Imgur
