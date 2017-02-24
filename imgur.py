@@ -175,6 +175,9 @@ def showStats(img):
     print(img.size)
     
 def getFileSize(img,drv):
+    # This function tries to work out the size of a file and if its a video to add a pause to the 
+    # viewing dispaly time if its over a certain size. It only works moderaterly well and badly 
+    # optimized GIFs can be short but with a large file size, but I tried.
     
     ps = drv.page_source
     regex = re.escape(img.get_attribute('id')) + r".(\w+)"
