@@ -1,10 +1,14 @@
 """
 Imgur Slideshow script
-Script to open Imgur.com and automate viewing of the pages and images
+Script to open Imgur.com and automate viewing of the pages and images.
+Is only so useful as the time to view each image is a guess that often
+doesn't work, particualarly with animated GIFs, but I was learning 
+Python while on chemo and this popped out, so I thought I'd share.
 By Pete Lock (petelock@gmail.com)
 Disclaimer
 This script, or the author, are in no way connected to the Imgur Company.
 Imgur have no knowledge of this and have not given any type of approval.
+Beware: As yet untested on OSX. Seems to work on Windows and Linux
 """
 import sys
 import os
